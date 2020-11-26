@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8" />
+      <link rel="icon" type="image/x-icon" href='img/circle_moi.png' />
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+      <link rel="stylesheet" href="css/style.css">
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      </head>
+    <body>
+
+  <nav>
+<div class="nav-wrapper">
+  <a href="index.html" class="brand-logo"><i class="large material-icons">nature_people</i></a>
+
+  <a href="#" data-activates="mobile-menu" class="button-collapse"><!--le data doit corresponde a lid -->
+    <i class="material-icons">menu</i>
+  </a>
+<ul class="right hide-on-med-and-down"><!--navigation a droite et on la ccxhe pour les petit s ecrans-->
+
+  <li><a href="#">Accueil</a></li>
+  <li><a href="#">Ou nous trouver</a></li>
+  <li><a href="#">Qui sommes nous ?</a></li>
+  <li><a href="#">Contact</a></li>
+  </ul>
+  <ul class="side-nav" id="mobile-menu"><!--navigation a droite et on la ccxhe pour les petit s ecrans-->
+    <!--MENU NAV POUR MOBILE-->
+
+    <li><a href="#">Accueil</a></li>
+    <li><a href="#">Ou nous trouver</a></li>
+    <li><a href="#">Qui sommes nous ?</a></li>
+    <li><a href="#">Contact</a></li>
+    </ul>
+</div>
+</nav>
+<!--parallax-->
+<section class="parallax-container">
+  <div class="container valign-wrapper accroche">
+<div class="row purple-text darken-4 center-align">
+
+<div class="col m9 s12">
+  <h1>
+    Introduction a <span class="deep-orange-text mate">materialize</span>
+  </h1>
+  <p class="p">Ce site vitrine est une présentaion du framework css <a href="https://materializecss.com/"><span class="deep-orange-text mat1">Materialize.</a></span></p>
+</div>
+</div>
+  </div>
+  <div class="parallax">
+    <img src="img/nb4.jpg" alt="deux">
+  </div>
+</section>
+<section class="white center-align">
+  <div class="container">
+<div class="row padding-perso">
+  <article class="col m4 s12">
+    <i class="material-icons deep-orange-text lighten-2 medium">brightness_6</i>
+
+    <h2>
+      Shadow
+    </h2>
+    <p>
+      
+      <div class="col s12 m4">
+        <p class="z-depth-3 shadow-demo"></p>
+      </div>
+      <div class="col s12 m4">
+        <p class="z-depth-4 shadow-demo"></p>
+
+      </div>
+      <div class="col s12 m4">
+        <p class="z-depth-5 shadow-demo"></p>
+      </div>
+          
+    </p>
+  </article>
+  <article class="col m4 s12">
+    <i class="material-icons deep-orange-text lighten-2 medium">radio_button_checked</i>
+     <h2>
+    Switches
+  </h2>
+  <p>
+      <!-- Switch -->
+  <div class="switch">
+    <label>
+      Off
+      <input type="checkbox">
+      <span class="lever"></span>
+      On
+    </label>
+  </div>
+        
+  </p></article>
+  <article class="col m4 s12">
+    <i class="material-icons deep-orange-text lighten-2 medium">cloud_queue</i>
+    <h2>
+Pulse
+  </h2>
+  <p>
+    <a class="btn-floating btn-large pulse"><i class="material-icons">cloud</i></a>
+     
+  </p></article>
+</div>
+
+  </div>
+ 
+</section>
+<section class="parallax-container" >
+
+  <div class="parallax">
+    <img src="img/nb3.jpg" alt="deux">
+  </div>
+</section>
+
+<!---SECTION---->
+<section>
+<div class="container">
+ <div class="row center-align">
+<h2 id="mess">Contactez-moi</h2>
+
+ </div>
+<div class="row">
+  <div class="col m6 s12">
+
+    <div id="infobulle"></div>
+<form action="">
+  <div class="input-field col s12">
+    <i class="material-icons prefix">person</i>
+    <input id="nom" type="text" class="tooltipped deep-orange-text darken-2 " data-position="bottom" data-delay="50" data-tooltip="Merci d'entrer votre nom"><!--apparaitb a lecran-->
+    <label for="nom">Votre nom</label>
+  </div>
+  <div class="input-field col s12">
+    <i class="material-icons prefix">mail</i>
+    <input id="email" type="email" class="validate">
+    <label for="courriel">Votre courriel</label>
+  </div>
+
+<div class="input-field col s12">
+  <i class="material-icons prefix">edit</i>
+<textarea name="" id="message" class="materialize-textarea"></textarea> 
+<label for="message">Votre message</label>
+
+</div>
+<div class="input-field col s12">
+  <i class="material-icons prefix">phone_android</i>
+<select name="" id="selection">
+<option value="" disabled selected>--</option>
+<option value="">0722523</option>
+<option value="">0722524</option>
+<option value="">0722525</option>
+
+  </select>
+  <label for="">Choississez un numero de téléphone</label>
+ 
+</div>
+<div class="col s12 center-align">
+<a href="#modal1" class="btn waves-effect modal-trigger modal-fixed-footer">Consulter les CGV</a>
+<div id="modal1" class="modal">
+  <div class="modal-content">
+    <h3>Nos conditions générales de ventes</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi id necessitatibus est minima exercitationem quo soluta sit, aliquid corrupti! Modi molestias fugiat non fuga? Dolores laboriosam fugit odio sunt eaque!</p>
+    <p>Aperiam possimus sint aspernatur praesentium. Ipsum doloremque fugit beatae voluptatibus repudiandae, molestiae numquam nemo, ea accusantium consequuntur eaque, saepe incidunt dolores cupiditate!</p>
+  </div>
+  <div class="modal-footer">
+
+    <a href="#!" class="modal-close waves-effect waves-green btn-flat">J'accepte</a>
+    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Je refuse</a>
+    
+  </div>
+</div>
+</div>
+<div class="input-field col s12">
+<input type="checkbox" name="" id="check">
+<label for="check">J'accepte</label>
+</div>
+<div class="input-field col s12 center-align">
+<button class="btn waves-effect waves-effect waves-light">Envoyer</button>
+
+</div>
+
+</form>
+  </div>
+  <!---FIN DU FORM DEBUT DU CARD-->
+  <div class="col m6 s12 center-align">
+<div class="card big teal z-depth-5  darken-4 ">
+  <div class="card-image">
+    <img src="img/img1.jpg">
+    <span class="card-title"> Texte de legende photo</span>
+  </div>
+<div class="card-content white-text teal ">
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis voluptatibus hic laboriosam qui, repellat odio eveniet ex vero iusto eos corrupti expedita doloribus commodi nostrum tenetur perspiciatis non. Harum, perspiciatis.
+</div>
+<div class="card-action">
+  <a href ="#!" class="orange-text">lien n°1</a>
+  <a href ="#!" class="orange-text">lien n°2</a>
+</div>
+
+</div>
+
+  </div>
+</div>
+
+</div>
+
+</section>
+
+
+</section>
+  </div>
+
+  <footer class="page-footer teal ">
+
+<div class="container">
+  <div class="row">
+    <div class="col m6 s12">
+      <h5 class="white-text">Footer</h5>
+    </div>
+    <div class="col m6 s12 ">
+      <h4>Menu</h4>
+      <ul>
+        <li><a href="#" class="white-text">Accueil</a></li>
+        <li><a href="#" class="white-text">Ou nous trouver</a></li>
+        <li><a href="#" class="white-text">Qui sommes nous ?</a></li>
+        <li><a href="#" class="white-text" >Contact</a></li>
+        </ul>
+    </div>
+    <div class="col s12 footer-copyright">
+      &copy;2020 &nbsp;<a href="rismo.fr" class="black-text">rismo.fr</a>
+    </div>
+  </div>
+</div>
+ </footer>
+      <!--Import jQuery before materialize.js-->
+     
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script src="script.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+    </body>
+  </html>
