@@ -169,7 +169,7 @@ Important : ça ne marche qu'avec des url d'images prises sur le web.
 
 `![Simplon.co](http://simplon.co/wp-content/uploads/2015/04/if-coder-keep-coding-else-learn-with-simplon-2-600x675.png)`
 
-![rismo.fr](https://zupimages.net/viewer.php?id=20/50/ojpc.jpg)
+![rismo.fr](https://zupimages.net/up/20/50/ojpc.jpg)
 
 -----------------
 
