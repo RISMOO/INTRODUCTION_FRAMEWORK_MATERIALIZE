@@ -1,8 +1,7 @@
-# site_web_materialize
-materialize
+# Site_Web_Materialize
+Demo du framework css [materialize](https://materializecss.com/getting-started.html) 
 
 
-Rendez-vous sur [materialize](https://materializecss.com/getting-started.html) !
 
 # Markown-memento
 Voici un petit fichier memento pour vous indiquer les principales syntaxes que vous pouvez utiliser en markdown.
