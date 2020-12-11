@@ -9,7 +9,7 @@ suivez le lien [materialize](https://materializecss.com/getting-started.html)
 
 -----------------
 
-![rismo.fr](https://zupimages.net/up/20/50/ojpc.jpg)
+Suivez-moi sur [rismo.fr](https://rismo.fr)
 
 -----------------
 
