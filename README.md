@@ -1,6 +1,9 @@
 # site_web_materialize
 materialize
 
+
+Rendez-vous sur [materialize](https://materializecss.com/getting-started.html) !
+
 # Markown-memento
 Voici un petit fichier memento pour vous indiquer les principales syntaxes que vous pouvez utiliser en markdown.
 Pour voir les détails de la syntaxe, cliquez que l'icone d'édition de ce fichier.
@@ -147,9 +150,8 @@ Pour faire un accent grave, il vous suffit de faire `AltGr` + `7` sur votre clav
 
 -----------------
 
-####Mettre un lien
 
-Rendez-vous sur [Simplonline](http://www.simplonline.com) !
+Rendez-vous sur [materialize](https://materializecss.com/getting-started.html) !
 
 Il vous faut le mot sur lequel vous souhaitez faire votre lien entre crochets [ ], puis votre lien entre parenthèses ( ).
 
