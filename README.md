@@ -5,7 +5,7 @@ Demo du framework css [materialize](https://materializecss.com/getting-started.h
 
 # Instalation 
 
-suivez le lien [materialize](https://materializecss.com/getting-started.html) 
+Suivez le lien [materialize](https://materializecss.com/getting-started.html) 
 
 -----------------
 
