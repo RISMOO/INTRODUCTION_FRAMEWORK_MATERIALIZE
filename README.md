@@ -1,13 +1,14 @@
 # Site_Web_Materialize
 Demo du framework css [materialize](https://materializecss.com/getting-started.html) 
 
-
-
-# Markown-memento
-Voici un petit fichier memento pour vous indiquer les principales syntaxes que vous pouvez utiliser en markdown.
-Pour voir les détails de la syntaxe, cliquez que l'icone d'édition de ce fichier.
-
 ----------------
+
+# Instalation 
+
+suivez le lien [materialize](https://materializecss.com/getting-started.html) 
+
+
+
 
 ####Mettre un mot en italique
 
