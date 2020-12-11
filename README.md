@@ -151,7 +151,7 @@ Pour faire un accent grave, il vous suffit de faire `AltGr` + `7` sur votre clav
 -----------------
 
 
-Rendez-vous sur [materialize](https://materializecss.com/getting-started.html) !
+Suivez-moi sur  [rismo.fr](https://rismo.fr) !
 
 Il vous faut le mot sur lequel vous souhaitez faire votre lien entre crochets [ ], puis votre lien entre parenthèses ( ).
 
